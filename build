@@ -3,7 +3,7 @@
 echo "Let us pretend that this is building something ... and takes 20 seconds"
 
 count=0
-while [ "$count" -lt 20 ]; do
+while [ "$count" -lt 5 ]; do
     count=$((count + 1))
 
     color_code=$((31 + (count % 7)))
@@ -18,7 +18,7 @@ cat >my-artifact.html <<EOF
 <h3>An example artifact</h3>
 <pre>
 ==== ==== ====
-An example artifact, created on: $(date)
+ANDREA example artifact, created on: $(date)
 
 Pipeline which created it: $GO_PIPELINE_NAME
 Pipeline counter was: $GO_PIPELINE_COUNTER
