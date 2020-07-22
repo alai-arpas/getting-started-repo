@@ -18,7 +18,7 @@ cat >my-artifact-TRIS.html <<EOF
 <h3>An example artifact</h3>
 <pre>
 ==== ==== ====
-ANDREA TRIS example artifact, created on: $(date)
+ANDREA quattro example artifact, created on: $(date)
 
 Pipeline which created it: $GO_PIPELINE_NAME
 Pipeline counter was: $GO_PIPELINE_COUNTER
